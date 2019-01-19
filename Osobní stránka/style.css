@@ -1,0 +1,129 @@
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #343448;
+}
+
+body {
+    background-image: url(i.jpg);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9DBEC4;
+}
+
+.IMG2 {
+    border: 6px solid #343434;
+    max-width: 99%;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+}
+
+a:link {
+    color: #bfb897;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+/* visited link */
+
+a:visited {
+    color: #bfb897;
+}
+
+.klik {
+    text-align: center;
+    text-size-adjust: 11;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    color: #bfb897;
+}
+
+.klik2 {
+    text-align: center;
+    text-size-adjust: 11;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    color: #bfb897;
+}
+
+.obrazky {
+    display: inline;
+    bottom: 150px;
+    left: 90px;
+    position: fixed;
+}
+
+.obrazke {
+    display: inline;
+    bottom: 150px;
+    left: 1300px;
+    position: fixed;
+}
+
+#container {
+    border: solid 6px;
+    border-color: #5D655A;
+    display: flex;
+    flex-grow: 1;
+    /* justify-content: space-between; */
+}
+
+.text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #bfb897;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    text-align: justify;
+}
+
+#a {
+    width: 20%;
+    border: solid 6px;
+    border-color: #8A948B;
+    height: calc(100vh - 100px);
+}
+
+#content {
+    width: 60%;
+    height: calc(100vh - 100px);
+    align-items: stretch;
+}
+
+#b {
+    width: 20%;
+    border: solid 6px;
+    border-color: #929A8B;
+    height: calc(100vh - 100px);
+}
+
+#text {
+    padding: 1px;
+}
+
+.noha {
+    text-align: end;
+}
+
+@media (min-width: 1500px) {
+    .IMG2 {
+        width: 1110px;
+        height: 370px;
+    }
+    .obrazky {
+        bottom: 1000px;
+    }
+    .obrazke {
+        bottom: 1000px;
+    }
+    
+}
