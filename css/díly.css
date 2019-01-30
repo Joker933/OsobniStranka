@@ -1,26 +1,43 @@
+/* nadpis */
+
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #343448;
 }
 
+
+/* text */
+
 body {
     background-image: url(../obrazky/i.jpg);
 }
+
+
+/* odstavec */
 
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: #9DBEC4;
 }
 
+
+/* obrazky */
+
 .IMG2 {
     border: 6px solid #343434;
     max-width: 99%;
 }
 
+
+/* patička web */
+
 footer {
     text-align: center;
     color: gray;
 }
+
+
+/* visited link */
 
 a:link {
     color: #bfb897;
@@ -44,6 +61,9 @@ a:visited {
     color: #bfb897;
 }
 
+
+/* barva po kliknuti */
+
 .klik2 {
     text-align: center;
     text-size-adjust: 11;
@@ -53,6 +73,9 @@ a:visited {
     color: #bfb897;
 }
 
+
+/* obrazky */
+
 .obrazky {
     display: inline;
     bottom: 150px;
@@ -60,12 +83,18 @@ a:visited {
     position: fixed;
 }
 
+
+/* obrazky */
+
 .obrazke {
     display: inline;
     bottom: 150px;
     left: 1300px;
     position: fixed;
 }
+
+
+/* flex-boxík */
 
 #container {
     border: solid 6px;
